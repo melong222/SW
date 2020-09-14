@@ -44,16 +44,16 @@ public class B11404 {
 					
 					if (i!=j) {
 						//dp[j][i] = Math.min(dp[j][i], dp[j][k]+dp[k][i]);
-						System.out.println("#"+j+ " "+i + " vs "+ j+ " "+k+ " "+ k + " " +i);	
+						//System.out.println("#"+j+ " "+i + " vs "+ j+ " "+k+ " "+ k + " " +i);	
 						dp[j][i] = Math.min(dp[j][i], dp[j][k]+dp[k][i]);
 						//print();
 						//System.out.println();
 					}
 					
 				}
-				System.out.println("!!!!!!!!!!!!!!!!!");
+				//System.out.println("!!!!!!!!!!!!!!!!!");
 			}
-			System.out.println("####################");
+			//System.out.println("####################");
 		}
 
 		StringBuilder sb = new StringBuilder();
